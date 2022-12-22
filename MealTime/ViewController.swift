@@ -8,8 +8,10 @@
 
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
+    var context: NSManagedObjectContext!
     
     @IBOutlet var tableView: UITableView!
     
